@@ -1,0 +1,13 @@
+Install Flatpak  (https://flatpak.org/setup/Ubuntu/)
+
+1) To install Flatpak on Ubuntu 18.10 (Cosmic Cuttlefish) or Ubuntu 19.04 (Disco Dingo), simply run:
+      sudo apt install flatpak
+  
+2) Install the Software Flatpak plugin
+      sudo apt install gnome-software-plugin-flatpak
+      
+3) Add the Flathub repository
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    
+4) To complete setup, restart your system.
+    
