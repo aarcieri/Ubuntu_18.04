@@ -1,0 +1,3 @@
+Run calibrate-matrix.sh
+copy the printed Section "InputClass" on file called  <..>calibration.conf
+placed in  /usr/share/X11/xorg.conf.d  
