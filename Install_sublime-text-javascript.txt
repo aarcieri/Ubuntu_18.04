@@ -40,5 +40,3 @@ Create a new file like index.js then use the following to test:
 	console.log(add(2,3));
 
 then press ctl+B key. A console terminal opens at the bottomm of the page.
-
-
