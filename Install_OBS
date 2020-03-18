@@ -1,0 +1,38 @@
+
+[Open Broadcaster Software]
+Installare OBS su Ubuntu 18.04 LTS
+
+1) xserver-xorg version 1.18.4 or newer is recommended
+	per vedere se c'e' e quale versione: dpkg -l |grep xserver-xorg-core
+
+2) FFmpeg is required
+	per vedere se c'e': 
+		
+		dpkg -l |grep ffmpeg
+
+		ffmpeg -version
+
+
+
+	per installarlo:
+		sudo apt-get update
+		sudo apt-get install ffmpeg
+
+In caso di errore dovuto al package "jitsi" 
+	service jitsi-videobridge stop
+	sudo apt-get purge jigasi jitsi-meet jitsi-meet-web-config jitsi-meet-prosody jitsi-meet-turnserver jitsi-meet-web jicofo jitsi-videobridge
+	sudo apt-get purge jigasi jitsi-meet jitsi-meet-web-config jitsi-meet-prosody jitsi-meet-web jicofo jitsi-videobridge
+	sudo apt-get update
+	sudo apt-get install ffmpeg
+	ffmeg -version
+	
+
+
+3) installa OBS 
+	sudo apt-get update
+	sudo add-apt-repository ppa:obsproject/obs-studio
+	sudo apt-get update
+	sudo apt-get install obs-studio
+
+
+	
