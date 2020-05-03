@@ -1,0 +1,9 @@
+Installare "Visual Studio Code" da Ubntu Software
+Installare "pip" (tool python per installare moduli): 
+  scaricare "get-pip.py" (oppure utilizzare file di questo repository)
+  eseguire: python3 get-pip.py
+
+Su VS Code, File -> Preferences -> Extensions,  cercare Python ed installarla
+
+Installare pygame: pip install pygame
+
