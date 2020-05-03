@@ -7,3 +7,9 @@ Su VS Code, File -> Preferences -> Extensions,  cercare Python ed installarla
 
 Installare pygame: pip install pygame
 
+Quando si eseguono programmi python, sono riportati problemi NON veri.
+Per risolvere il problema: copiare 
+              "python.linting.pylintArgs": [
+              "----extension-pkg-whitelist=1xml"
+              ]
+sotto i settings (File->Preferences->Setting e cercare settings.json) 
