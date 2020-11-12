@@ -2,6 +2,10 @@ Installare "Visual Studio Code" da Ubntu Software
 Installare "pip" (tool python per installare moduli): 
   scaricare "get-pip.py" (oppure utilizzare file di questo repository)
   eseguire: python3 get-pip.py
+  se ERRORE del tipo "launchpadlib 1.10.13 requires testresources, which is not installed"
+  allora eseguire: 
+      sudo apt install python3-testresources
+      python3 get-pip.py
 
 Su VS Code, File -> Preferences -> Extensions,  cercare Python ed installarla
 
