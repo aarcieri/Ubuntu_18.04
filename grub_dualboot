@@ -1,0 +1,5 @@
+Modificare:
+sudo nano /etc/default/grub
+
+Update grub:
+sudo update-grub
